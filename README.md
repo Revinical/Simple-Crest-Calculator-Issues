@@ -53,4 +53,4 @@ Keep an eye on CurseForge/Wago for release notes.
 **Where are the patch notes?**  
 Release notes are posted on the CurseForge and Wago addon pages with each update.
 
-*Maintained by [YourName].*
+*Maintained by Revinical.*
