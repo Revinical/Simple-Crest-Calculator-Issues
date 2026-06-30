@@ -1,20 +1,24 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
-
+name: Feature Request
+about: Suggest an idea or improvement for SimpleCrestCalculator
+labels: enhancement
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+<!-- Got an idea? Great! Search existing issues first — if it's already suggested, 
+     drop a 👍 on it rather than opening a duplicate. -->
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+## Feature Summary
+<!-- A short, clear description of what you'd like added or changed -->
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+## What problem does this solve?
+<!-- What are you trying to do that the addon doesn't currently help with? -->
+
+
+## Describe the solution you'd like
+<!-- How do you imagine this working? Rough ideas are fine. -->
+
+
+## Alternatives you've considered
+<!-- Any workarounds you use currently, or other addons that do something similar? -->
+
