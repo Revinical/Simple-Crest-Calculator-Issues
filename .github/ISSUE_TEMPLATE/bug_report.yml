@@ -8,16 +8,12 @@ body:
         Thanks for taking the time to report a bug! Please fill out the sections below to help get it resolved quickly.
         Before submitting, check that you're on the **latest version** and that no [existing issue](../../issues) already covers this.
 
-  - type: dropdown
+  - type: input
     id: wow-version
     attributes:
       label: WoW Version
-      description: Which version of WoW are you playing?
-      options:
-        - Retail (The War Within)
-        - Classic Era
-        - Cataclysm Classic
-        - Season of Discovery
+      description: Which version of WoW are you playing? This can be found on the WoW login screen.
+      placeholder: e.g. 12.0.7
     validations:
       required: true
 
