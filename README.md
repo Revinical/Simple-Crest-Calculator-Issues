@@ -48,9 +48,9 @@ accepted at this time, but feedback and ideas absolutely are.
 
 **How do I know if my issue was fixed?**  
 Issues will be closed with a comment referencing the version the fix ships in. 
-Keep an eye on CurseForge/Wago for release notes.
+Keep an eye on CurseForge for release notes.
 
 **Where are the patch notes?**  
-Release notes are posted on the CurseForge and Wago addon pages with each update.
+Release notes are posted on the CurseForge addon page with each update.
 
 *Maintained by Revinical.*
