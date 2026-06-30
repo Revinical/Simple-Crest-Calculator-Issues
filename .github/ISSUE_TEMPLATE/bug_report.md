@@ -1,38 +1,78 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+name: Bug Report
+description: Something isn't working as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the sections below to help get it resolved quickly.
+        Before submitting, check that you're on the **latest version** and that no [existing issue](../../issues) already covers this.
 
----
+  - type: dropdown
+    id: wow-version
+    attributes:
+      label: WoW Version
+      description: Which version of WoW are you playing?
+      options:
+        - Retail (The War Within)
+        - Classic Era
+        - Cataclysm Classic
+        - Season of Discovery
+    validations:
+      required: true
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+  - type: input
+    id: addon-version
+    attributes:
+      label: Addon Version
+      description: Found in the addon list in-game (bottom-left of the addon entry).
+      placeholder: e.g. 1.2.0
+    validations:
+      required: true
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug you encountered.
+      placeholder: Tell us what you saw...
+    validations:
+      required: true
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: Tell us what you expected...
+    validations:
+      required: true
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we trigger this bug?
+      placeholder: |
+        1. Open the addon panel
+        2. Click on ...
+        3. See error
+    validations:
+      required: true
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+  - type: textarea
+    id: error-message
+    attributes:
+      label: Error Message (if any)
+      description: Paste the full text of any Lua error or addon error here. Use the BugSack or !BugGrabber addon to capture the full error if possible.
+      render: text
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+  - type: checkboxes
+    id: conflict-check
+    attributes:
+      label: Conflict Check
+      description: Please confirm the following before submitting.
+      options:
+        - label: I tested with other addons disabled and the issue still occurs
+          required: false
+        - label: I have checked for duplicate issues and found none
+          required: true
