@@ -9,7 +9,7 @@
 
 Get the latest release from one of these sources:
 
-- **CurseForge:** [[SimpleCrestCalculator on CurseForge](#)](https://www.curseforge.com/wow/addons/simple-crest-calculator)
+- **CurseForge:** [[SimpleCrestCalculator on CurseForge](https://www.curseforge.com/wow/addons/simple-crest-calculator)]
 
 You can also install it automatically via the **CurseForge App**.
 
