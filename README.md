@@ -24,7 +24,7 @@ Before opening an issue, please:
 3. Disable other addons temporarily to rule out conflicts
 
 When you open a bug report, please include:
-- **Your WoW version** (Retail / Classic Era / Cata Classic)
+- **Your WoW version** (12.0.0, 12.0.5, 12.0.7, etc.)
 - **Addon version** (shown in the addon list in-game)
 - **What happened** vs **what you expected**
 - Any relevant **error messages** (the full text, not a screenshot if possible)
