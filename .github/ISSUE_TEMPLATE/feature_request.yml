@@ -1,0 +1,41 @@
+name: Feature Request
+description: Suggest an idea or improvement for SimpleCrestCalculator
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea? Great! Please describe it clearly below.
+        Check [existing issues](../../issues) first to see if it's already been suggested — feel free to upvote with 👍 instead of opening a duplicate.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature Summary
+      description: A short, clear description of what you'd like to see added or changed.
+      placeholder: e.g. Show a breakdown of Crests needed per slot
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Explain the context — what are you trying to do that the addon doesn't currently help with?
+      placeholder: Currently I have to manually calculate...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like
+      description: How do you imagine this working? Feel free to be as detailed or rough as you like.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Any workarounds you're currently using, or other addons that do something similar?
